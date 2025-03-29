@@ -23,7 +23,7 @@ function App() {
         {data.map((item) => (
           <tr key={item.id}
            id={item.color} style={{ backgroundColor: item.color }}>
-               <td id="red">{item.id}</td>
+               <td id="yellow">{item.id}</td>
                <td id="yellow" >{item.name}</td>
                <td id ="yellow">{item.age}</td>
             
